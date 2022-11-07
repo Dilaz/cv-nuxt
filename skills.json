@@ -1,0 +1,307 @@
+[
+    {
+      "name": "C++",
+      "skill": 3,
+      "enjoyment": 5,
+      "info": "C++ is my native language, but it has been a while since I last used it, so I might need some time to bring it all back. I have been paying attention to new versions a bit so I have an idea what is going on with the language.",
+      "libs": [
+        {
+          "name": "Qt",
+          "skill": 3,
+          "enjoyment": 4
+        },
+        {
+          "name": "Boost",
+          "skill": 2,
+          "enjoyment": 3
+        },
+        {
+          "name": "Cmake",
+          "skill": 2,
+          "enjoyment": 4
+        },
+        {
+          "name": "Gdb",
+          "skill": 2,
+          "enjoyment": 3
+        }
+      ]
+    },
+    {
+      "name": "Typescript / JavaScript",
+      "skill": 4,
+      "enjoyment": 5,
+      "info": "10 years of (work) experience, also some hobby projects. Currently my main work language",
+      "libs": [
+        {
+          "name": "Vue.js",
+          "skill": 4,
+          "enjoyment": 5,
+          "info": "One of my favourite things to use with JavaScript"
+        },
+        {
+          "name": "Nest.js",
+          "skill": 4,
+          "enjoyment": 4,
+          "info": "My current node.js web framework of choice"
+        },
+        {
+          "name": "Express",
+          "skill": 4,
+          "enjoyment": 4
+        },
+        {
+          "name": "jQuery",
+          "skill": 5,
+          "enjoyment": 1
+        },
+        {
+          "name": "React",
+          "skill": 2,
+          "enjoyment": 2
+        },
+        {
+          "name": "React Native",
+          "skill": 2,
+          "enjoyment": 3
+        },
+        {
+          "name": "AngularJS",
+          "skill": 4,
+          "enjoyment": 2
+        },
+        {
+          "name": "Gulp",
+          "skill": 4,
+          "enjoyment": 3
+        },
+        {
+          "name": "Webpack",
+          "skill": 3,
+          "enjoyment": 4
+        },
+        {
+          "name": "Adonis, Sails",
+          "skill": 2,
+          "enjoyment": 4,
+          "info": "I have used these equally short periods and I think they all have their place"
+        },
+        {
+          "name": "NPM"
+        },
+        {
+          "name": "Yarn"
+        }
+      ]
+    },
+    {
+      "name": "PHP",
+      "skill": 5,
+      "enjoyment": 4,
+      "info": "15+ years of experience, 10 years of work experience and some hobby projects.",
+      "libs": [
+        {
+          "name": "Laravel",
+          "skill": 4,
+          "enjoyment": 5,
+          "info": "Probably the main reason I currently enjoy PHP. I have used Laravel professionally for around 5 years."
+        },
+        {
+          "name": "WordPress",
+          "skill": 5,
+          "enjoyment": 2
+        },
+        {
+          "name": "Zend Framework",
+          "skill": 2,
+          "enjoyment": 2
+        },
+        {
+          "name": "Composer",
+          "skill": 3,
+          "enjoyment": 4
+        },
+        {
+          "name": "XDebug",
+          "skill": 3,
+          "enjoyment": 5
+        }
+      ]
+    },
+    {
+      "name": "Python",
+      "skill": 2,
+      "enjoyment": 2,
+      "info": "I know the basics and have used it in some hobby projects but not so confident with it. Mainly using it for the neural network and data processing libraries",
+      "libs": [
+        {
+          "name": "Keras",
+          "skill": 2,
+          "enjoyment": 3
+        },
+        {
+          "name": "Tensorflow",
+          "skill": 1,
+          "enjoyment": 2
+        },
+        {
+          "name": "OpenCV2",
+          "skill": 2,
+          "enjoyment": 2
+        },
+        {
+          "name": "Django",
+          "skill": 1,
+          "enjoyment": 1
+        }
+      ]
+    },
+    {
+      "name": "Bash",
+      "skill": 3,
+      "enjoyment": 4,
+      "info": "Using it almost daily basis to do file operations on my server. At work I basically live in the terminal."
+    },
+    {
+      "name": "Web technologies",
+      "libs": [
+        {
+          "name": "(S)CSS",
+          "skill": 4,
+          "enjoyment": 5
+        },
+        {
+          "name": "HTML5",
+          "skill": 5,
+          "enjoyment": 5
+        },
+        {
+          "name": "SVG",
+          "skill": 3,
+          "enjoyment": 4
+        },
+        {
+          "name": "WCAG",
+          "skill": 3,
+          "enjoyment": 4
+        },
+        {
+          "name": "Dev tools",
+          "skill": 4,
+          "enjoyment": 5
+        }
+      ]
+    },
+    {
+      "name": "Other programming languages",
+      "libs": [
+        {
+          "name": "Perl",
+          "skill": 2,
+          "enjoyment": 2
+        },
+        {
+          "name": "C",
+          "skill": 3,
+          "enjoyment": 3
+        },
+        {
+          "name": "C#",
+          "skill": 2,
+          "enjoyment": 2
+        },
+        {
+          "name": "Lua",
+          "skill": 1,
+          "enjoyment": 1
+        },
+        {
+          "name": "Ada",
+          "skill": 1,
+          "enjoyment": 1
+        }
+      ]
+    },
+    {
+      "name": "Databases",
+      "libs": [
+        {
+          "name": "MySQL/MariaDB",
+          "skill": 4,
+          "enjoyment": 4
+        },
+        {
+          "name": "PostgreSQL ",
+          "skill": 2,
+          "enjoyment": 3
+        },
+        {
+          "name": "Sqlite",
+          "skill": 2,
+          "enjoyment": 2
+        },
+        {
+          "name": "MongoDB",
+          "skill": 2,
+          "enjoyment": 1
+        },
+        {
+          "name": "Redis",
+          "skill": 3,
+          "enjoyment": 4
+        }
+      ]
+    },
+    {
+      "name": "Cloud services",
+      "libs": [
+        {
+          "name": "AWS",
+          "info": "EC2, Elastic Beanstalk, SQS, SNS, Rekognition, Route 53 and S3"
+        },
+        {
+          "name": "Google Cloud Platform",
+          "info": "App Engine, Cloud SQL, Kubernetes Engine, Cloud Build"
+        },
+        {
+          "name": "Heroku"
+        }
+      ]
+    },
+    {
+      "name": "Software",
+      "libs": [
+        {
+          "name": "Kubernetes"
+        },
+        {
+          "name": "Terraform"
+        },
+        {
+          "name": "VS Code"
+        },
+        {
+          "name": "PhpStorm"
+        },
+        {
+          "name": "Sublime text"
+        },
+        {
+          "name": "Git (command line, SourceTree)"
+        },
+        {
+          "name": "Office Software"
+        },
+        {
+          "name": "Docker"
+        },
+        {
+          "name": "Vagrant"
+        },
+        {
+          "name": "MQTT"
+        }
+      ]
+    }
+  ]
+  
