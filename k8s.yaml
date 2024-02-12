@@ -1,0 +1,38 @@
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: cv-nuxt
+  namespace: cv-nuxt
+  labels:
+    app: cv-nuxt
+spec:
+  ports:
+    - port: 3000
+      protocol: TCP
+      targetPort: 3000
+  selector:
+    app: cv-nuxt
+  type: NodePort
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: cv-nuxt
+  namespace: cv-nuxt
+  labels:
+    app: cv-nuxt
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: cv-nuxt
+  template:
+    metadata:
+      labels:
+        app: cv-nuxt
+    spec:
+      containers:
+      - name: cv-nuxt
+        image: localhost/cv-nuxt:latest
+        imagePullPolicy: IfNotPresent

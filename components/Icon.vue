@@ -1,6 +1,6 @@
 <template>
     <svg>
-        <use :xlink:href="'/img/icons/iconpack.svg#icon-' + name"></use>
+        <use :xlink:href="'/iconpack.svg#icon-' + name"></use>
     </svg>
 </template>
 
