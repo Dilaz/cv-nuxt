@@ -24,6 +24,11 @@ metadata:
     app: cv-nuxt
 spec:
   replicas: 2
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxSurge: 2
+      maxUnavailable: 1
   selector:
     matchLabels:
       app: cv-nuxt
@@ -36,3 +41,5 @@ spec:
       - name: cv-nuxt
         image: localhost/cv-nuxt:latest
         imagePullPolicy: IfNotPresent
+      imagePullSecrets:
+      - name:  github-container-registry

@@ -1,7 +1,8 @@
 FROM node:lts-alpine as build
 WORKDIR /app
-COPY . .
+COPY package*.json ./
 RUN npm install
+COPY . .
 RUN npm run build
 
 FROM node:lts-alpine as prod
