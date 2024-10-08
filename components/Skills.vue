@@ -32,7 +32,7 @@ export default {
 }
 </script>
 
-<style scoped lang="scss">
+<style scoped>
 article {
     margin-top: 40px;
 

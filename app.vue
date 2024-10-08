@@ -8,7 +8,7 @@
   </main>
 </template>
 
-<style lang="scss">
+<style>
   body {
       background-color: #0f1015;
       color: rgb(194, 190, 183);

@@ -14,7 +14,7 @@ export default {
 }
 </script>
 
-<style scoped lang="scss">
+<style scoped>
 a {
     position: absolute;
     top: 0;

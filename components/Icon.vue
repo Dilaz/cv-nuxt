@@ -1,5 +1,5 @@
 <template>
-    <svg>
+    <svg class="icon">
         <use :xlink:href="'/iconpack.svg#icon-' + name"></use>
     </svg>
 </template>
@@ -12,11 +12,10 @@ export default {
 }
 </script>
 
-<style scoped lang="scss">
-svg {
-    $size: 12px;
-    height: $size;
-    width: $size;
+<style scoped>
+.icon {
+    height: 12px;
+    width: 12px;
     display: inline-block;
     margin-right: 3px;
 }
