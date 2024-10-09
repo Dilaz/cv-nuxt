@@ -39,7 +39,14 @@ spec:
     spec:
       containers:
       - name: cv-nuxt
-        image: localhost/cv-nuxt:latest
-        imagePullPolicy: IfNotPresent
+        image: ghcr.io/dilaz/cv-nuxt:latest
+        imagePullPolicy: Always
+        securityContext:
+          allowPrivilegeEscalation: false
+          readOnlyRootFilesystem: true
+          runAsNonRoot: true
+          runAsUser: 10000
+          capabilities:
+            drop: [ALL]
       imagePullSecrets:
       - name:  github-container-registry
