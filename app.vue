@@ -8,6 +8,17 @@
   </main>
 </template>
 
+<script lang="ts" setup>
+defineOgImageComponent('NuxtSeo', {
+    title: 'Risto Viitanen',
+    description: 'This site lists my programming skills',
+    theme: '#0f1015',
+    colorMode: 'dark',
+    component: '',
+
+});
+</script>
+
 <style>
   body {
       background-color: #0f1015;
