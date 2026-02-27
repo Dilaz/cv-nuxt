@@ -1,6 +1,7 @@
-// https://v3.nuxtjs.org/api/configuration/nuxt.config
+// https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  compatibilityDate: "2024-10-08",
+  compatibilityDate: "2025-01-01",
+  srcDir: '.',
   ssr: true,
   devtools: { enabled: true },
   modules: [
