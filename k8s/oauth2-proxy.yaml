@@ -25,7 +25,7 @@ spec:
           args:
             - --provider=oidc
             - --oidc-issuer-url=https://auth.binarydream.fi/auth/v1/
-            - --client-id=cv-nuxt
+            - --client-id=cv
             - --redirect-url=https://cv.binarydream.fi/oauth2/callback
             - --upstream=http://cv-nuxt:3000
             - --http-address=0.0.0.0:4180
