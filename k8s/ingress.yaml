@@ -15,10 +15,11 @@ spec:
           - path: /
             pathType: Prefix
             backend:
+              # Routes through oauth2-proxy (rauthy OIDC); it proxies to cv-nuxt:3000.
               service:
-                name: cv-nuxt
+                name: oauth2-proxy
                 port:
-                  number: 3000
+                  number: 4180
   tls:
     - secretName: cv-nuxt-tls
       hosts:
