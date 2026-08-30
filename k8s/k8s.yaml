@@ -39,7 +39,7 @@ spec:
     spec:
       containers:
       - name: cv-nuxt
-        image: ghcr.io/dilaz/cv-nuxt:721b97f226bac28ef6fb25d588cdd161850d1791
+        image: ghcr.io/dilaz/cv-nuxt:6c86a1645ec2aaa9eb813a757046dbb07faa4d96
         imagePullPolicy: Always
         securityContext:
           allowPrivilegeEscalation: false
